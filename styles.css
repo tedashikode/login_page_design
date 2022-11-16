@@ -130,6 +130,7 @@ form{
     color: #F7F7F7;
     /* gap: 32px; */
     background-image: url("https://images.unsplash.com/photo-1524504388940-b1c1722653e1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+    position: relative;
 }
 
 .right-section{
@@ -145,6 +146,18 @@ form{
     margin-bottom: 100px;
     margin-right: 100px;
     margin-left:    100px; */
+}
+
+.glass{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    border-left: 1px solid #F2F5FA;
+    height: 15vh;
+    margin-top: 332px;
+    background-color: rgba(242, 245, 250, 0.452);
+    backdrop-filter: blur(4px); 
+    /* box-shadow: 10px 10px 10px rgba(30,30,30,0.5); */
 }
 
 .narcissim{
