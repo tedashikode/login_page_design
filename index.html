@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6190b5fdf6.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <title>Login Page</title>
     
@@ -16,7 +20,10 @@
                 <h1 class="margin-bottom">Welcome back, Olivia</h1>
                 <h3 class="margin-bottom make-small">Welcome back! please enter your details</h3>
                 <form action="">
-                    <button  class="margin-bottom"type="submit">Log in with Google</button>
+                    <button  class="margin-bottom white"type="submit">
+                        <i class="fa-brands fa-google"></i>
+                        Log in with Google
+                    </button>
                     <div class="hr-div">
                         <hr class="margin-bottom" width="50%">
                         <p class="or-text">or</p>
@@ -27,12 +34,16 @@
                     <label for="">Password</label>
                     <input class="margin-bottom" type="text">
                     <div class="checkbox-group">
-                        <input  type="checkbox">
-                        <label  for="">Remember for 30 days</label>
-                        <a  class="margin-bottom"href="url">Forgot Password</a>
+                        <div>
+                            <input  type="checkbox">
+                            <label  for="">Remember for 30 days</label>
+                        </div>
+                        <a  class="margin-bottom" href="#">Forgot Password</a>
                     </div>
-                    <button class="margin-bottom" type="submit">Log in</button>
-                    <h5>Don't have an account? Sign up for free</h5>
+                    <button class="margin-bottom black" type="submit">Log in</button>
+                    <span class="center">
+                        <h5>Don't have an account? Sign up for free</h5>
+                    </span>
                 </form>
             </section>
         </div>
@@ -49,7 +60,7 @@
                 </p>
 
             <div class="bottom-right-corner" >
-                <p>
+                <p> 
                     Sophie Hall
                     <br>
                     Founder, Catalog
@@ -58,16 +69,20 @@
                 </p>
                 <div class="last">
                     <ul>
-                        <i>Star</i>
-                        <i>Star</i>
-                        <i>Star</i>
-                        <i>Star</i>
-                        <i>Star</i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
+                        <i class="fa-sharp fa-solid fa-star"></i>
                     </ul>
                     <div class="circle-div">
 
-                        <button class="circular"></button>
-                        <button class="circular"></button>
+                        <button class="circular">
+                            <i class="fa-solid fa-arrow-left"></i>
+                        </button>
+                        <button class="circular">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
                     </div>
                 </div>
             </div>
